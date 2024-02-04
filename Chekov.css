@@ -1,0 +1,97 @@
+
+h4 {
+    color: olive;
+}
+
+.speech {
+    margin-bottom: 10px; /* Adjust the spacing as per your preference */
+}
+
+/* Styles for spoken text */
+.speech {
+    font-family: Arial, sans-serif; /* Choose your preferred font family */
+    font-size: 16px; /* Choose your preferred font size */
+    color: black;
+}
+
+/* Styles for non-spoken directions */
+.direction {
+    font-family: Times New Roman, serif; /* Choose your preferred font family */
+    font-size: 14px; /* Choose your preferred font size */
+    
+    
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+}
+
+/* Hover effect for directions */
+.direction:hover {
+    background-color: lightblue; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+}
+
+/* Styles for character names */
+.PISCHIN {
+    color: red; 
+}
+
+.TROFIMOV {
+    color: blue;
+}
+
+.VARYA {
+    color: green; 
+}
+.LUBOV{
+    color: yellow;
+}
+.CHARLOTTA{
+    color: pink;
+}
+.STATION-MASTER{
+    color: lavender;
+}
+.YASHA{
+    color: violet;
+}
+.ANYA{
+    color: purple;
+}
+.FIERS{
+    color:aqua;
+}
+.DUNYASHA{
+    color:aquamarine;
+}
+.EPIKHODOV{
+    color:bisque;
+}
+.LOPAKHIN{
+    color:azure;
+}
+.GAEV{
+    color:beige;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: pink;
+}
+th{
+    text-align: center;
+}
+tr{
+    text-align: left;
+}
+tr:nth-child(odd){
+    background-color: blueviolet;
+}
+th,td{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+th{
+    margin-top: 0cap;
+}
+.PISCHIN:hover{
+    text-shadow: 1px 1px 5px blue;
+}
