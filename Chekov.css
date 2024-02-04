@@ -1,13 +1,5 @@
 
-h4 {
-    color: olive;
-}
-
-.speech {
-    margin-bottom: 10px; /* Adjust the spacing as per your preference */
-}
-
-/* Styles for spoken text */
+h4 { color: olive;}
 .speech {
     font-family: Arial, sans-serif; /* Choose your preferred font family */
     font-size: 16px; /* Choose your preferred font size */
@@ -16,11 +8,11 @@ h4 {
 
 /* Styles for non-spoken directions */
 .direction {
-    font-family: Times New Roman, serif; /* Choose your preferred font family */
-    font-size: 14px; /* Choose your preferred font size */
+    font-family: Times New Roman, serif;
+    font-size: 14px;
     
     
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+
 }
 
 /* Hover effect for directions */
